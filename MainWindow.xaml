@@ -1,0 +1,30 @@
+﻿<Window x:Class="PrilPractika.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrilPractika"
+        mc:Ignorable="d"
+               Title="Каршеринг" MinHeight="470" MinWidth="800" Height="470" Width="800" Icon="./Resource/Imagine/carlogo.png" WindowStartupLocation="CenterScreen">
+    <Grid Background="#e9e9e9">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+
+
+
+        <StackPanel  Grid.Row="1" >
+            <Image Source="./Resource/Imagine/car150.png" Height="100"/>
+            <Button Style="{StaticResource CustomButtonStyle}" Margin="5 10 5 0" Content="Клиенты" FontSize="20" Height="30" Click="Button_Click"/>
+            <Button Style="{StaticResource CustomButtonStyle}" Content="Автомобили" FontSize="20" Height="30" Margin="5 5 5 0" Name="BtnOrder" Click="BtnOrder_Click" />
+            <Button Style="{StaticResource CustomButtonStyle}" Height="30" Content="Скидки" FontSize="20"  Margin="5 5 5 0" Name="BtnCompany" Click="BtnCompany_Click" />
+            <Button Style="{StaticResource CustomButtonStyle}" Height="30" Content="Штрафы" FontSize="20" Margin="5 5 5 70" Name="BtnTask" Click="BtnTask_Click"/>
+            <TextBlock Margin="5,0,5,0" Height="80" Width="150" Name="TxbBlkTimeNow"
+                       FontSize="60"/>
+            <TextBlock Margin="25,0,5,0"  Width="110" Name="TxbBlkDateTime"
+                       Height="23" FontSize="20"></TextBlock>
+        </StackPanel>
+        <Frame Grid.Row="1" Grid.Column="1" Name="FrmMain" NavigationUIVisibility="Hidden" Margin="0 0 5 5"/>
+    </Grid>
+</Window>
