@@ -1,0 +1,31 @@
+﻿<Window x:Class="PrilPractika.Views.AdminPage.AddPage.FineWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrilPractika.Views.AdminPage.AddPage"
+        mc:Ignorable="d"
+         Title="Каршеринг" MinHeight="180" MinWidth="250" Height="180" Width="250" WindowStartupLocation="CenterScreen" Icon="/Resource/Imagine/carlogo.png" >
+    <Grid Background="#e9e9e9">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" >
+            <GroupBox Header="Введите название штрафа:" BorderThickness="0"
+                      >
+                <TextBox 
+                    Name="TxbFine"/>
+            </GroupBox>
+
+            <GroupBox Header="Введите цену:" BorderThickness="0"
+                     >
+                <TextBox 
+                    Name="TxbPrice"/>
+            </GroupBox>
+
+            <Button Style="{StaticResource CustomButtonStyle}" Click="BtnAddProduct_Click"
+                Width="150"
+                    Height="25"
+                Name="BtnAddProduct"
+                Content="Добавить штраф"
+                BorderThickness="0"/>
+        </StackPanel>
+    </Grid>
+</Window>

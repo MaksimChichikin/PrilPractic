@@ -63,3 +63,9 @@ C:\My-project\PrilPractika\obj\Debug\net6.0-windows\Views\AdminPage\DiscountPage
 C:\My-project\PrilPractika\obj\Debug\net6.0-windows\Views\AdminPage\FinePage.baml
 C:\My-project\PrilPractika\obj\Debug\net6.0-windows\Views\AdminPage\AddPage\ClientWindow.g.cs
 C:\My-project\PrilPractika\obj\Debug\net6.0-windows\Views\AdminPage\AddPage\ClientWindow.baml
+C:\My-project\PrilPractika\obj\Debug\net6.0-windows\Views\AdminPage\AddPage\AutoWindow.g.cs
+C:\My-project\PrilPractika\obj\Debug\net6.0-windows\Views\AdminPage\AddPage\AutoWindow.baml
+C:\My-project\PrilPractika\obj\Debug\net6.0-windows\Views\AdminPage\AddPage\DiscountWindow.g.cs
+C:\My-project\PrilPractika\obj\Debug\net6.0-windows\Views\AdminPage\AddPage\DiscountWindow.baml
+C:\My-project\PrilPractika\obj\Debug\net6.0-windows\Views\AdminPage\AddPage\FineWindow.g.cs
+C:\My-project\PrilPractika\obj\Debug\net6.0-windows\Views\AdminPage\AddPage\FineWindow.baml

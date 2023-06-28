@@ -1,5 +1,6 @@
 ﻿using PrilPractika.ClassHelper.Global;
 using PrilPractika.Models;
+using PrilPractika.Views.AdminPage.AddPage;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -92,7 +93,18 @@ namespace PrilPractika.Views.AdminPage
 
         private void BtnAdd_Click(object sender, RoutedEventArgs e)
         {
-
+            try
+            {
+                FineWindow fineWindow = new FineWindow();
+                fineWindow.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString(),
+                    "Критическая ошибка",
+                    MessageBoxButton.OK,
+                    MessageBoxImage.Warning);
+            }
         }
 
         private void BtnEdit_Click(object sender, RoutedEventArgs e)

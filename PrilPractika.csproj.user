@@ -7,7 +7,16 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\AdminPage\AddPage\AutoWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\AdminPage\AddPage\ClientWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AdminPage\AddPage\DiscountWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AdminPage\AddPage\FineWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\AdminPage\AutoPage.xaml.cs">
@@ -27,7 +36,16 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\AdminPage\AddPage\AutoWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\AdminPage\AddPage\ClientWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AdminPage\AddPage\DiscountWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AdminPage\AddPage\FineWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\AdminPage\AutoPage.xaml">

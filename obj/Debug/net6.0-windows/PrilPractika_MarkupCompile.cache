@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\My-project\PrilPractika\App.xaml
-62023755257
+91330265699
 
-20-633873008
+23263062436
 2141382953244
-MainWindow.xaml;Views\AdminPage\AddPage\ClientWindow.xaml;Views\AdminPage\AutoPage.xaml;Views\AdminPage\ClientPage.xaml;Views\AdminPage\DiscountPage.xaml;Views\AdminPage\FinePage.xaml;
+MainWindow.xaml;Views\AdminPage\AddPage\AutoWindow.xaml;Views\AdminPage\AddPage\ClientWindow.xaml;Views\AdminPage\AddPage\DiscountWindow.xaml;Views\AdminPage\AddPage\FineWindow.xaml;Views\AdminPage\AutoPage.xaml;Views\AdminPage\ClientPage.xaml;Views\AdminPage\DiscountPage.xaml;Views\AdminPage\FinePage.xaml;
 
 False
 

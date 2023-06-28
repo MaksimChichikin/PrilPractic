@@ -6,4 +6,7 @@ FC:\My-project\PrilPractika\Views\AdminPage\AutoPage.xaml;;
 FC:\My-project\PrilPractika\Views\AdminPage\DiscountPage.xaml;;
 FC:\My-project\PrilPractika\Views\AdminPage\FinePage.xaml;;
 FC:\My-project\PrilPractika\Views\AdminPage\AddPage\ClientWindow.xaml;;
+FC:\My-project\PrilPractika\Views\AdminPage\AddPage\AutoWindow.xaml;;
+FC:\My-project\PrilPractika\Views\AdminPage\AddPage\DiscountWindow.xaml;;
+FC:\My-project\PrilPractika\Views\AdminPage\AddPage\FineWindow.xaml;;
 
